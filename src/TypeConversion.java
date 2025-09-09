@@ -4,6 +4,7 @@ public class TypeConversion {
         short snum= num;
         int inum= snum;
         long lnum= inum;
+        System.out.println(lnum);
 
         short x = 256;
         byte a = (byte)x;
@@ -13,5 +14,6 @@ public class TypeConversion {
         int xnum = (int)fnum;
         System.out.println(xnum);
         double dnum = 3.14151012039934920;
+        System.out.println(dnum);
     }
 }
