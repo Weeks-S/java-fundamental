@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf46ff1c-33ac-4fcb-af48-1e9fdd66d529" name="Changes" comment="add new file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayAndLoops.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MethodExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineShopping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TebakAngka.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigmacamp/cashflowManagement/OOP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigmacamp/cashflowManagement/animal/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigmacamp/cashflowManagement/model/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enigmacamp/cashflowManagement/service/CashflowManager.java" beforeDir="false" />
-    </list>
+    <list default="true" id="cf46ff1c-33ac-4fcb-af48-1e9fdd66d529" name="Changes" comment="&quot;retrying 5&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +26,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -243,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757759141727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;retrying 5&quot;">
+      <option name="closed" value="true" />
+      <created>1757761343532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757761343532</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +264,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Fundamental" />
     <MESSAGE value="add new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new file" />
+    <MESSAGE value="&quot;retrying 5&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;retrying 5&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
