@@ -1,5 +1,4 @@
-package enigmacamp.cashflowManagement;
-import com.enigmacamp.cashflowManagement.animal.Animal;
+package com.enigmacamp.cashflowManagement;
 
 public class OOP {
     public static void main(String[] args) {

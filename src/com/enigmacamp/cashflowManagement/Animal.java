@@ -1,4 +1,4 @@
-package com.enigmacamp.cashflowManagement.animal;
+package com.enigmacamp.cashflowManagement;
 
 import java.util.Arrays;
 

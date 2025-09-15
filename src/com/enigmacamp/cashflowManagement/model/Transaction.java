@@ -2,32 +2,59 @@ package com.enigmacamp.cashflowManagement.model;
 
 import java.time.LocalDate;
 
-public class Transaction {
+abstract public class Transaction {
     // FIELDS
-    private String type; //income or outcome;
+    private TransactionType type; //income or outcome;
     private double amount;
     private String description;
     private LocalDate date;
 
 
+    protected enum TransactionType {
+        INCOME("Income"),
+        OUTCOME("Outcome");
+
+        public String displayName ;
+
+        TransactionType(String displayName) {
+            this.displayName = displayName;
+        }
+
+        public String getDisplayName() {
+            return displayName;
+        }
+
+        public void setDisplayName(String displayName) {
+            this.displayName = displayName;
+        }
+    }
 
     //CONSTRUCTOR
-    public Transaction(String type, double amount, String description, LocalDate date) {
+    protected Transaction(double amount, String description, LocalDate date) {
+        this.amount = amount;
+        this.description = description;
+        this.date = date;
+    }
+
+    protected Transaction(
+            TransactionType type,
+            double amount,
+            String description,
+            LocalDate date)
+    {
         this.type = type;
         this.amount = amount;
         this.description = description;
         this.date = date;
     }
 
-    public Transaction() {
-
+    protected Transaction() {
     }
 
     //METHOD
+
+    public abstract double getImpactOnBalance();
     //Getter
-    public String getType() {
-        return "Type of Transaction" + type;
-    }
 
     public double getAmount() {
         return amount;
@@ -42,7 +69,7 @@ public class Transaction {
     }
 
     //Setter
-    public void setType(String type) {
+    public void setType(TransactionType type) {
         this.type = type;
     }
 
