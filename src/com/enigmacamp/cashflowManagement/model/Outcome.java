@@ -3,7 +3,7 @@ package com.enigmacamp.cashflowManagement.model;
 import java.time.LocalDate;
 
 public class Outcome extends Transaction{
-    private Priority priority;
+    private final Priority priority;
 
     public enum Priority {
         High(3),
@@ -44,4 +44,6 @@ public class Outcome extends Transaction{
                 " priority=" + priority +
                 '}';
     }
+
+
 }

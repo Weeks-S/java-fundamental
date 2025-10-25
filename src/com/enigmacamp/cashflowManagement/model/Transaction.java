@@ -1,6 +1,7 @@
 package com.enigmacamp.cashflowManagement.model;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 abstract public class Transaction {
     // FIELDS
@@ -98,4 +99,17 @@ abstract public class Transaction {
                 ", date=" + date +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Transaction that = (Transaction) o;
+        return Double.compare(amount, that.amount) == 0 && type == that.type && Objects.equals(description, that.description) && Objects.equals(date, that.date);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(type, amount, description, date);
+    }
+
 }
